@@ -2,5 +2,5 @@
 
 # 初始化venv虚拟环境
 
-    cd virtualenv/
+    cd gRPC-Python-Template/
     virtualenv -p python3.6 venv
