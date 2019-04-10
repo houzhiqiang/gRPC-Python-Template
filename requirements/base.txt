@@ -1,0 +1,7 @@
+pymysql
+sqlalchemy
+protobuf
+grpcio
+googleapis-common-protos
+celery
+sentry_sdk
