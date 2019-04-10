@@ -1,0 +1,17 @@
+[run]
+branch = true
+
+include = service/*
+omit =
+    protos/
+    service/protos/*
+    client/*
+    manage.py
+    service/utils/__init__.py
+    service/utils/config.py
+timid = true
+
+[report]
+fail_under = 60
+show_missing = true
+skip_covered = true

@@ -7,7 +7,7 @@ from decimal import Decimal
 from .. import ClientBase
 
 
-class Asset(ClientBase):
+class ClientDemo(ClientBase):
     """资产客户端"""
     def __init__(self, host, port):
         super().__init__(host, port)
